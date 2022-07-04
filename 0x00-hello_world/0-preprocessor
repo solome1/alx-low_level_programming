@@ -1,0 +1,3 @@
+#!/bin/bash
+gcc -E  > c
+gcc -E main.c > c
