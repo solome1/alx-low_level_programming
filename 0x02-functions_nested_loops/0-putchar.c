@@ -1,7 +1,13 @@
 #include <stdio.h>
+#include <unistd.h>
 
-void main()
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (success)
+ */
+
+int _putchar(char c)
 {
-	puts("\n_putchar");
-	return(0);
+	return (write(1, &c, 1));
 }
