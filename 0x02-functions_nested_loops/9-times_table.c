@@ -2,7 +2,7 @@
 
 /**
  * times_table: prints the 9 time table starting from 0
- * Return: times tabel starting from 0 to 9 times 
+ * Return: times table
  */
 void times_table(void)
 {
